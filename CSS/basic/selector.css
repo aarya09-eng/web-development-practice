@@ -1,0 +1,14 @@
+* {
+  background-color: cadetblue;
+}
+
+p {
+  font-family: monospace;
+  font-size: larger;
+  color: blue;
+}
+
+.high{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: -moz-repeating-linear-gradient();
+}
