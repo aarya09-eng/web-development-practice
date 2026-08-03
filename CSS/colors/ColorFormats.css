@@ -1,0 +1,30 @@
+#rgb {
+  color: rgb(191, 241, 10);
+  background-color: rgb(17, 68, 62);
+}
+
+#rgba {
+  color: rgb(199, 15, 190, 0.2);
+}
+
+#hex {
+  color: aquamarine;
+  background-color: blue;
+}
+
+#hsl {
+  color: hsl(210, 80%, 50%);
+}
+
+#hsla {
+  background-color: hsla(210, 70%, 20%, 0.85); /* dark blue, mostly opaque */
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+}
+
+#button {
+  background-color: transparent;
+  border: 2px solid rgb(152, 40, 40);
+  color: black;
+}
