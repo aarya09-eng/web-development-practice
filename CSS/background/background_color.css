@@ -1,11 +1,11 @@
 body {
   background-color: aqua;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUwFOs7qKfwRNFkffxRE6KTnLP1ApzGnqPOZAF5raW8Q&s);
+  background-image: url(images.jpeg);
 }
 p {
   color: beige;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
