@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      li:first-child {
+        background-color: blueviolet;
+      }
+
+      li:last-child {
+        background-color: skyblue;
+      }
+
+      li:nth-child(even) {
+        background-color: darkgoldenrod;
+      }
+
+      li:nth-child(odd) {
+        background-color: rgb(87, 170, 118);
+      }
+
+      p:only-child {
+        background-color: darkorange;
+      }
+
+      p::first-letter {
+        text-decoration: dotted;
+        color: rgb(255, 1, 1);
+        font-weight: 800;
+        font-size: larger;
+      }
+
+      p::first-line{
+        color: magenta;
+        font-family: cursive;
+      }
+
+      h2::selection{
+        background-color: yellow;
+      }
+
+    h2::marker{
+        color: violet;
+        font-size: xx-large;
+    }
+
+    </style>
+  </head>
+  <body>
+    <ol>
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Chery</li>
+      <li>Mango</li>
+      <li>kiwi</li>
+      <li>Gavar</li>
+      <li>Watermelon</li>
+    </ol>
+
+    <div>
+      <p>single child</p>
+    </div>
+
+    <div>
+      <p>first child</p>
+      <p>second child</p>
+    </div>
+
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit aspernatur
+      dolores laudantium voluptate perspiciatis possimus et nobis. Possimus
+      reiciendis magnam animi accusamus totam? Amet doloribus aliquid magnam
+      dicta distinctio quibusdam!
+    </p>
+
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis atque obcaecati facilis sapiente eius, soluta optio voluptatibus deserunt incidunt nam harum itaque, cum quae eum. Id eum perferendis debitis deleniti.</h2>
+  </body>
+</html>
